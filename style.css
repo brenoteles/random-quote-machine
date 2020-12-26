@@ -1,0 +1,54 @@
+body {
+  font-family: serif;
+  background: gray;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box{
+  border: 3px solid white;
+  display: grid;
+  width: 50vw;
+  min-height: 70vh;
+  color: black;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#author-text{
+  display: grid;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+ }
+
+#author{
+  justify-self: right;
+}
+
+#text{
+  text-align: justify;
+  padding: 5px;
+  width: 75%;
+  justify-self: center;
+}
+
+#buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttons button{
+  height: 50px;
+}
+
+#tweet-quote{
+  display: inline;
+  justify-self: right;
+}
